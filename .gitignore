@@ -1,0 +1,21 @@
+# Estado local de Terraform
+*.tfstate
+*.tfstate.*
+
+# Directorio local y planes
+.terraform/
+*.tfplan
+
+# Variables locales que pueden incluir información sensible
+terraform.tfvars
+*.auto.tfvars
+
+# Logs
+crash.log
+crash.*.log
+
+# Claves privadas SSH
+*.pem
+*.key
+id_rsa
+id_ed25519

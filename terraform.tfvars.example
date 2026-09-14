@@ -1,0 +1,12 @@
+resource_group_name = "rg-terraform-tu-nombre"
+location            = "East US"
+prefix              = "tfvm-tu-nombre"
+vm_name             = "vm-ubuntu-terraform"
+vm_size             = "Standard_B1s"
+admin_username      = "azureuser"
+
+# Pega únicamente la clave pública, nunca la clave privada.
+ssh_public_key = "ssh-ed25519 AAAA... pega-aqui-tu-clave-publica"
+
+# Ejemplo: "190.12.34.56/32". Sustituye por tu IP pública actual.
+allowed_ssh_ip = "X.X.X.X/32"

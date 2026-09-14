@@ -108,6 +108,10 @@ az account set --subscription "Azure for Students"
 az account show --output table
 ```
 
+<img width="946" height="845" alt="image" src="https://github.com/user-attachments/assets/8a2afd08-01b5-48c3-af02-c8159c69fe6c" />
+<img width="931" height="318" alt="image" src="https://github.com/user-attachments/assets/c7b254ce-e30e-4eb6-a05b-fc928c0d0d7e" />
+
+
 ## Configuración local
 
 ### 1. Crear una llave SSH
@@ -172,6 +176,8 @@ Terraform descargará el proveedor `hashicorp/azurerm` y creará el archivo de b
 terraform fmt -recursive
 terraform validate
 ```
+<img width="962" height="114" alt="image" src="https://github.com/user-attachments/assets/ad0be770-816d-4957-abda-b309d5971740" />
+
 
 La validación exitosa debe incluir un mensaje similar a:
 
@@ -217,24 +223,18 @@ exit
 - `terraform.tfvars`, el estado de Terraform y las claves SSH están excluidos mediante `.gitignore`.
 - Revise `git status` antes de cada commit para confirmar que no hay secretos.
 
-## Evidencias sugeridas
+## Evidencias 
 
-Guarde las capturas en un directorio `evidencias/` y agréguelas al README cuando estén disponibles:
+**Creación de la VM
+<img width="936" height="570" alt="image" src="https://github.com/user-attachments/assets/b34503a8-e38e-4f9d-9da8-462732bb07be" />
 
-1. `terraform --version`.
-2. Inicio de sesión de Azure CLI y suscripción seleccionada.
-3. Resultado de `terraform init`.
-4. Resultado de `terraform plan`.
-5. Resultado de `terraform apply` con outputs.
-6. Máquina virtual creada y en estado *Running* en Azure Portal.
-7. Conexión SSH y salida de `hostnamectl`.
-8. Resultado de `terraform destroy`.
+**Dentro de la VM
 
-Ejemplo para insertar una evidencia en el README:
+<img width="1916" height="920" alt="image" src="https://github.com/user-attachments/assets/832ff191-4e5a-4096-8d5a-73de6f8d1e4d" />
 
-```markdown
-![Terraform apply exitoso](evidencias/05-terraform-apply.png)
-```
+
+<img width="837" height="467" alt="image" src="https://github.com/user-attachments/assets/424610fc-dc5e-4d07-b823-5a8e89d59c6c" />
+
 
 ## Limpieza de recursos
 

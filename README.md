@@ -163,6 +163,9 @@ terraform init
 
 Terraform descargará el proveedor `hashicorp/azurerm` y creará el archivo de bloqueo `.terraform.lock.hcl`.
 
+<img width="945" height="694" alt="image" src="https://github.com/user-attachments/assets/607e39a0-bfbd-438d-88b3-a9c8f50fd604" />
+
+
 ### 2. Formatear y validar
 
 ```bash
